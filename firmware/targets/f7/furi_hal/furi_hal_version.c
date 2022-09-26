@@ -245,7 +245,7 @@ FuriHalVersionColor furi_hal_version_get_hw_color() {
 }
 
 uint8_t furi_hal_version_get_hw_connect() {
-    return furi_hal_version.board_connect;
+    return FuriHalVersionRegionUnknown;//furi_hal_version.board_connect;
 }
 
 FuriHalVersionRegion furi_hal_version_get_hw_region() {
